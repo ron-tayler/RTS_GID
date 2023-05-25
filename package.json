@@ -49,7 +49,8 @@
     "nwVersion": "0.76.1",
     "nwFlavor": "normal",
     "targets": [
-      "zip"
+      "zip",
+      "nsis7z"
     ],
     "files": [
       "**/*"
