@@ -47,10 +47,9 @@
   },
   "build": {
     "nwVersion": "0.76.1",
-    "nwFlavor": "sdk",
+    "nwFlavor": "normal",
     "targets": [
-      "zip",
-      "nsis7z"
+      "zip"
     ],
     "files": [
       "**/*"
@@ -60,6 +59,7 @@
       "src/**/*",
       "tests/**/*",
       "public/**/*",
+      "node_modules",
       "dist-vue/**/*.js.map",
       "dist-vue/**/*.css.map",
       "dist-vue/**/*-legacy*",
@@ -77,7 +77,10 @@
       "screenshot.png",
       "selenium-debug.log",
       "postcss.config.js",
-      "vue.config.js"
+      "vue.config.js",
+      "vite.config.js",
+      "tsconfig.js",
+      "tsconfig.node.js"
     ],
     "strippedProperties": [
       "ManifestComments",
