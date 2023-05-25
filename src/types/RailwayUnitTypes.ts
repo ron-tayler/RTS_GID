@@ -1,0 +1,11 @@
+export enum RailwayUnitTypes {
+    WAGON_FLATCAR_1,
+    WAGON_FLATCAR_2,
+    WAGON_FLATCAR_3,
+    WAGON_HOPPER,
+    WAGON_BOXCAR,
+    WAGON_TANKER,
+    WAGON_PASS,
+    LOCOMOTIVE,
+    TENDER
+}

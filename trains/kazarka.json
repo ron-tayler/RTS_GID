@@ -1,0 +1,746 @@
+[
+  {
+    "id": 1,
+    "number": "6202",
+    "status": "stop-finish",
+    "norma_route": [
+      {
+        "station": 0,
+        "start": 102,
+        "finish": 103
+      },
+      {
+        "station": 1,
+        "start": 111,
+        "finish": 112
+      },
+      {
+        "station": 2,
+        "start": 120,
+        "finish": 121
+      },
+      {
+        "station": 3,
+        "start": 131,
+        "finish": 132
+      },
+      {
+        "station": 4,
+        "start": 139,
+        "finish": 140
+      }
+    ],
+    "route": [
+      {
+        "station": 0,
+        "start": 88,
+        "path": -1,
+        "finish": 101
+      },
+      {
+        "station": 0,
+        "path": 1,
+        "start": 101,
+        "finish": 104
+      },
+      {
+        "station": 1,
+        "path": 2,
+        "start": 111,
+        "finish": 112
+      },
+      {
+        "station": 2,
+        "path": 2,
+        "start": 119,
+        "finish": 121
+      },
+      {
+        "station": 3,
+        "path": 4,
+        "start": 131,
+        "finish": 132
+      },
+      {
+        "station": 4,
+        "path": 2,
+        "start": 138,
+        "finish": 138
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "number": "190",
+    "status": "stop-finish",
+    "norma_route": [
+      {
+        "station": 0,
+        "start": 123,
+        "finish": 123
+      },
+      {
+        "station": 1,
+        "start": 129,
+        "finish": 129
+      },
+      {
+        "station": 2,
+        "start": 137,
+        "finish": 137
+      },
+      {
+        "station": 3,
+        "start": 145,
+        "finish": 145
+      },
+      {
+        "station": 4,
+        "start": 155,
+        "finish": 157
+      }
+    ],
+    "route": [
+      {
+        "station": 0,
+        "start": 93,
+        "path": -2,
+        "finish": 130
+      },
+      {
+        "station": 0,
+        "path": 1,
+        "start": 130,
+        "finish": 130
+      },
+      {
+        "station": 1,
+        "path": 2,
+        "start": 134,
+        "finish": 134
+      },
+      {
+        "station": 2,
+        "path": 1,
+        "start": 138,
+        "finish": 138
+      },
+      {
+        "station": 3,
+        "path": 3,
+        "start": 145,
+        "finish": 145
+      },
+      {
+        "station": 4,
+        "path": 2,
+        "start": 149,
+        "finish": 149
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "number": "6201",
+    "status": "stop-finish",
+    "norma_route": [
+      {
+        "station": 4,
+        "start": 123,
+        "finish": 124
+      },
+      {
+        "station": 3,
+        "start": 131,
+        "finish": 147
+      },
+      {
+        "station": 2,
+        "start": 157,
+        "finish": 158
+      },
+      {
+        "station": 1,
+        "start": 166,
+        "finish": 167
+      },
+      {
+        "station": 0,
+        "start": 175,
+        "finish": 176
+      }
+    ],
+    "route": [
+      {
+        "station": 4,
+        "start": 118,
+        "path": 4,
+        "finish": 138
+      },
+      {
+        "station": 4,
+        "path": 1,
+        "start": 138,
+        "finish": 138
+      },
+      {
+        "station": 3,
+        "path": 1,
+        "start": 145,
+        "finish": 148
+      },
+      {
+        "station": 2,
+        "path": 2,
+        "start": 155,
+        "finish": 157
+      },
+      {
+        "station": 1,
+        "path": 1,
+        "start": 165,
+        "finish": 167
+      },
+      {
+        "station": 0,
+        "path": 2,
+        "start": 174,
+        "finish": 174
+      },
+      {
+        "station": 0,
+        "start": 174,
+        "path": -1,
+        "finish": 190
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "number": "6204",
+    "status": "stop-finish",
+    "norma_route": [
+      {
+        "station": 0,
+        "start": 215,
+        "finish": 216
+      },
+      {
+        "station": 1,
+        "start": 224,
+        "finish": 225
+      },
+      {
+        "station": 2,
+        "start": 233,
+        "finish": 234
+      },
+      {
+        "station": 3,
+        "start": 244,
+        "finish": 248
+      },
+      {
+        "station": 4,
+        "start": 255,
+        "finish": 256
+      }
+    ],
+    "route": [
+      {
+        "station": 0,
+        "path": -2,
+        "start": 207,
+        "finish": 214
+      },
+      {
+        "station": 0,
+        "path": 1,
+        "start": 214,
+        "finish": 215
+      },
+      {
+        "station": 1,
+        "path": 2,
+        "start": 222,
+        "finish": 225
+      },
+      {
+        "station": 2,
+        "path": 2,
+        "start": 232,
+        "finish": 234
+      },
+      {
+        "station": 3,
+        "path": 4,
+        "start": 244,
+        "finish": 248
+      },
+      {
+        "station": 4,
+        "path": 2,
+        "start": 253,
+        "finish": 254
+      },
+      {
+        "station": 4,
+        "path": 3,
+        "start": 254,
+        "finish": 272
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "number": "6203",
+    "status": "init",
+    "norma_route": [
+      {
+        "station": 4,
+        "start": 236,
+        "finish": 238
+      },
+      {
+        "station": 3,
+        "start": 245,
+        "finish": 247
+      },
+      {
+        "station": 2,
+        "start": 257,
+        "finish": 258
+      },
+      {
+        "station": 1,
+        "start": 266,
+        "finish": 268
+      },
+      {
+        "station": 0,
+        "start": 276,
+        "finish": 277
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "number": "6206",
+    "status": "init",
+    "norma_route": [
+      {
+        "station": 0,
+        "start": 314,
+        "finish": 320
+      },
+      {
+        "station": 1,
+        "start": 328,
+        "finish": 329
+      },
+      {
+        "station": 2,
+        "start": 337,
+        "finish": 338
+      },
+      {
+        "station": 3,
+        "start": 348,
+        "finish": 349
+      },
+      {
+        "station": 4,
+        "start": 356,
+        "finish": 358
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "number": "559",
+    "status": "up-finish",
+    "norma_route": [
+      {
+        "station": 4,
+        "start": 278,
+        "finish": 282
+      },
+      {
+        "station": 3,
+        "start": 291,
+        "finish": 291
+      },
+      {
+        "station": 2,
+        "start": 299,
+        "finish": 299
+      },
+      {
+        "station": 1,
+        "start": 308,
+        "finish": 310
+      },
+      {
+        "station": 0,
+        "start": 318,
+        "finish": 318
+      }
+    ],
+    "route": [
+      {
+        "station": 4,
+        "path": 4,
+        "start": 267,
+        "finish": 342
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "number": "6205",
+    "status": "init",
+    "norma_route": [
+      {
+        "station": 4,
+        "start": 333,
+        "finish": 335
+      },
+      {
+        "station": 3,
+        "start": 342,
+        "finish": 350
+      },
+      {
+        "station": 2,
+        "start": 360,
+        "finish": 361
+      },
+      {
+        "station": 1,
+        "start": 369,
+        "finish": 370
+      },
+      {
+        "station": 0,
+        "start": 378,
+        "finish": 379
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "number": "516",
+    "status": "init",
+    "norma_route": [
+      {
+        "station": 0,
+        "start": 402,
+        "finish": 408
+      },
+      {
+        "station": 1,
+        "start": 416,
+        "finish": 416
+      },
+      {
+        "station": 2,
+        "start": 424,
+        "finish": 424
+      },
+      {
+        "station": 3,
+        "start": 432,
+        "finish": 432
+      },
+      {
+        "station": 4,
+        "start": 442,
+        "finish": 444
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "number": "57",
+    "status": "init",
+    "norma_route": [
+      {
+        "station": 4,
+        "start": 373,
+        "finish": 375
+      },
+      {
+        "station": 3,
+        "start": 384,
+        "finish": 384
+      },
+      {
+        "station": 2,
+        "start": 392,
+        "finish": 392
+      },
+      {
+        "station": 1,
+        "start": 400,
+        "finish": 400
+      },
+      {
+        "station": 0,
+        "start": 406,
+        "finish": 406
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "number": "6208",
+    "status": "init",
+    "norma_route": [
+      {
+        "station": 0,
+        "start": 427,
+        "finish": 428
+      },
+      {
+        "station": 1,
+        "start": 436,
+        "finish": 437
+      },
+      {
+        "station": 2,
+        "start": 445,
+        "finish": 451
+      },
+      {
+        "station": 3,
+        "start": 461,
+        "finish": 462
+      },
+      {
+        "station": 4,
+        "start": 469,
+        "finish": 470
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "number": "6207",
+    "status": "init",
+    "norma_route": [
+      {
+        "station": 4,
+        "start": 430,
+        "finish": 431
+      },
+      {
+        "station": 3,
+        "start": 438,
+        "finish": 439
+      },
+      {
+        "station": 2,
+        "start": 449,
+        "finish": 450
+      },
+      {
+        "station": 1,
+        "start": 458,
+        "finish": 459
+      },
+      {
+        "station": 0,
+        "start": 467,
+        "finish": 468
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "number": "9999",
+    "status": "stop-finish",
+    "route": [
+      {
+        "station": 3,
+        "path": 1,
+        "start": 18,
+        "finish": 88
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "number": "9998",
+    "status": "stop-finish",
+    "route": [
+      {
+        "station": 1,
+        "path": 6,
+        "start": 19,
+        "finish": 342
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "number": "4403",
+    "status": "stop-finish",
+    "route": [
+      {
+        "station": 4,
+        "path": 3,
+        "start": 47,
+        "finish": 68
+      },
+      {
+        "station": 4,
+        "path": 1,
+        "start": 68,
+        "finish": 69
+      },
+      {
+        "station": 3,
+        "path": 5,
+        "start": 74,
+        "finish": 78
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "number": "2008",
+    "status": "stop-finish",
+    "route": [
+      {
+        "station": 3,
+        "path": 1,
+        "start": 89,
+        "finish": 108
+      },
+      {
+        "station": 4,
+        "path": 2,
+        "start": 120,
+        "finish": 120
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "number": "2006",
+    "status": "stop-finish",
+    "route": [
+      {
+        "station": 0,
+        "path": -3,
+        "start": 97,
+        "finish": 138
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "number": "1021",
+    "status": "stop-finish",
+    "route": [
+      {
+        "station": 4,
+        "path": 3,
+        "start": 99,
+        "finish": 118
+      },
+      {
+        "station": 3,
+        "path": 2,
+        "start": 133,
+        "finish": 151
+      },
+      {
+        "station": 2,
+        "path": 1,
+        "start": 170,
+        "finish": 170
+      },
+      {
+        "station": 1,
+        "path": 2,
+        "start": 182,
+        "finish": 182
+      },
+      {
+        "station": 0,
+        "path": 2,
+        "start": 188,
+        "finish": 188
+      },
+      {
+        "station": 0,
+        "start": 187,
+        "path": -2,
+        "finish": 204
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "number": "1023",
+    "status": "stop-finish",
+    "route": [
+      {
+        "station": 4,
+        "path": 3,
+        "start": 138,
+        "finish": 157
+      },
+      {
+        "station": 4,
+        "path": 1,
+        "start": 157,
+        "finish": 157
+      },
+      {
+        "station": 3,
+        "path": 2,
+        "start": 162,
+        "finish": 162
+      },
+      {
+        "station": 2,
+        "path": 1,
+        "start": 178,
+        "finish": 178
+      },
+      {
+        "station": 1,
+        "path": 2,
+        "start": 188,
+        "finish": 188
+      },
+      {
+        "station": 0,
+        "path": 2,
+        "start": 194,
+        "finish": 195
+      },
+      {
+        "station": 0,
+        "start": 195,
+        "path": -1,
+        "finish": 211
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "number": "2016",
+    "status": "stop-finish",
+    "route": [
+      {
+        "station": 0,
+        "path": -1,
+        "start": 155,
+        "finish": 161
+      }
+    ]
+  }
+]
