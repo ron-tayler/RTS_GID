@@ -1,0 +1,112 @@
+{
+  "name": "trains",
+  "version": "0.1.0-beta",
+  "private": true,
+  "main": "src/App.js",
+  "window": {
+    "width": 1000,
+    "height": 900,
+    "min_width": 450,
+    "min_height": 480,
+    "toolbar": true
+  },
+  "chromium-args": "--enable-spell-checking --load-extension='./node_modules/nw-vue-devtools-prebuilt/extension'",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run start:serve\" \"wait-on http://localhost:5173 && nw .\"",
+    "start:serve": "vite",
+    "start:nw": "nw .",
+    "build": "npm run build:clean && npm run build:vue && npm run build:nw:win",
+    "build:clean": "rimraf ./dist-vue ./dist",
+    "build:vue": "vite build",
+    "build:nw:win": "build --tasks win-x86 --mirror https://dl.nwjs.io/ .",
+    "run:win": "dist\\trains-0.1.0-win-x86\\trains.exe",
+    "reinstall": "rimraf ./node_modules & npm install"
+  },
+  "dependencies": {
+    "konva": "9.0.2",
+    "pinia": "^2.0.35",
+    "vue": "^3.2.47",
+    "vue-konva": "3.0.2",
+    "vue-simple-context-menu": "^4.0.4",
+    "vue3-touch-events": "^4.1.2",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "concurrently": "^7.0.0",
+    "nw": "0.76.1-sdk",
+    "nw-vue-devtools-prebuilt": "^0.0.10",
+    "nwjs-builder-phoenix": "^1.15.0",
+    "nwjs-types": "^1.0.0",
+    "pug": "^3.0.2",
+    "rimraf": "^3.0.2",
+    "sass": "^1.62.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.3.4",
+    "wait-on": "^6.0.1"
+  },
+  "build": {
+    "nwVersion": "0.76.1",
+    "nwFlavor": "sdk",
+    "targets": [
+      "zip",
+      "nsis7z"
+    ],
+    "files": [
+      "**/*"
+    ],
+    "excludes": [
+      "e2e/**/*",
+      "src/**/*",
+      "tests/**/*",
+      "public/**/*",
+      "dist-vue/**/*.js.map",
+      "dist-vue/**/*.css.map",
+      "dist-vue/**/*-legacy*",
+      ".browserslistrc",
+      ".eslintrc",
+      ".gitignore",
+      ".editorconfig",
+      "babel.config.js",
+      "CODE_OF_CONDUCT.md",
+      "cypress.json",
+      "jest.config.js",
+      "nightwatch.conf.js",
+      "nightwatch.json",
+      "package-lock.json",
+      "screenshot.png",
+      "selenium-debug.log",
+      "postcss.config.js",
+      "vue.config.js"
+    ],
+    "strippedProperties": [
+      "ManifestComments",
+      "scripts",
+      "devDependencies",
+      "build"
+    ],
+    "overriddenProperties": {
+      "main": "dist-vue/index.html",
+      "chromium-args": "--enable-spell-checking",
+      "window": {
+        "width": 960,
+        "height": 600,
+        "min_width": 500,
+        "min_height": 500,
+        "icon": "dist-vue/favicon.ico"
+      }
+    },
+    "win": {
+      "icon": "dist-vue/favicon.ico"
+    },
+    "nsis": {
+      "icon": "dist-vue/favicon.ico",
+      "unIcon": "dist-vue/favicon.ico",
+      "languages": [
+        "English"
+      ],
+      "diffUpdaters": false,
+      "hashCalculation": true
+    }
+  }
+}
